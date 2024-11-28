@@ -1,0 +1,12 @@
+.status-container {
+  display: flex;
+  flex-direction: row; /* Ensure groups are displayed in a single row */
+  gap: 20px;
+  overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  padding-bottom: 10px;
+  scrollbar-width: thin; /* Make the scrollbar smaller */
+}
+.status-column {
+  width:"20%";
+  border:"solid 1px red";
+}
